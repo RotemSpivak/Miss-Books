@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(179, 200, 203);
+    padding: 10px;
+    width: 100%;
+    border-bottom: 3px double rgb(99, 99, 154);
+}
+
+header h1 {
+    margin-left: 20px;
+}
+
+.active {
+    font-size: 25px;
+    color: blue;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 8px;
+    margin-left: 20px;
+    color: rgb(8, 8, 71);
+}
+
+

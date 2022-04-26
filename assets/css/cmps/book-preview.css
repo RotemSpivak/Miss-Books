@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.book-preview {
+    justify-content: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.496);
+    height: 50vh;
+    width: 315px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.book-preview h2 {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: black;
+    border-bottom: 3px solid rgb(157, 155, 155);
+}
+.book-preview h3{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 20px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+.img-container img{
+    height: 220px;
+    margin: 5px;
+}
+
+.onSale img {
+    height: 50px;
+}

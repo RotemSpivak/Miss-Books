@@ -1,0 +1,60 @@
+header {
+    width: 100%;
+}
+.book-details {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.book-details h2{
+    border-bottom: 2px solid rgb(109, 115, 129);
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.book-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.book-details-container h2, h3{
+    margin: 10px;
+}
+
+
+
+.book-description {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+.review-add {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.review-add h2 {
+    border-bottom: 2px solid rgb(109, 115, 129);
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.book-description h2 {
+    align-items: center;
+    border-bottom: 2px solid rgb(109, 115, 129);
+    font-size: 20px;
+    font-weight: bold;
+}
+.read-more {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.book-review-container {
+    padding: 10px;
+}
+.book-review-container h3 {
+    font-size: 15px;
+}
